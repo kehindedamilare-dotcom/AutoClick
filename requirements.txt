@@ -1,0 +1,18 @@
+# Core runtime (Python 3.10+)
+python-dotenv>=1.0.1,<2
+pydantic>=2.6,<3
+
+# Vision-language model SDKs
+openai>=1.40,<3
+anthropic>=0.34,<1
+google-genai>=1.0,<2
+
+# OS automation + capture
+pyautogui>=0.9.54,<1
+mss>=9.0,<11
+keyboard>=0.13.5,<1
+Pillow>=10.2,<13
+pyperclip>=1.8.2,<2
+
+# Resilience
+tenacity>=8.2,<10
